@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("Test")
 public class TestController {
 
+    @GetMapping("start")
+    public String Start() { return "TestStartPage"; }
+
     //First Line
     @GetMapping("first1")
     public String First1Question() {
