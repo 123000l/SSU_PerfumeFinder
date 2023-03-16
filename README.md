@@ -11,5 +11,5 @@ a = Yes, b = No
 
 2023.03.16 목요일 (김유진)
 
-index(main) page: 수정, SSU PerfumeFinder 작성
+index(main) page: 수정, SSU PerfumeFinder 작성\n
 Test/start page: 추가, Test 실행시키려면 http://localhost:8080/Test/start 입력해야 함
