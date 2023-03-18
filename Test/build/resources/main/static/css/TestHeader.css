@@ -1,0 +1,19 @@
+header {
+    width: 100%;
+    height: 180px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #3f1b5b;
+}
+
+header a {
+    color: white;
+    font-size: 30px;
+    text-decoration:none;
+}
+
+.a_tag {
+    margin-top: 110px;
+    text-align: center;
+}

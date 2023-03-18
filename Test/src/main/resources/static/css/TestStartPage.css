@@ -1,0 +1,20 @@
+p {
+    margin-top: 340px;
+    text-align: center;
+}
+
+button {
+    margin-top: 8px;
+    text-align: center;
+    border-radius:40px;
+    background-color: #3f1b5b;
+    color: white;
+    min-height: 70px;
+    min-width: 195px;
+    border: none;
+    box-shadow: 0px 3px 5px grey;
+}
+
+.button_div {
+    text-align: center;
+}

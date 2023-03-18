@@ -115,4 +115,7 @@ public class TestController {
     public String ResultD() {
         return "Result/ResultD";
     }
+
+    @GetMapping("header")
+    public String h() { return "TestHeader"; }
 }
