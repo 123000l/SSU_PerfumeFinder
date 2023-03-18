@@ -6,3 +6,45 @@
     height: 130px;
     border-radius: 70px;
 }
+
+#yes {
+    margin-top: 80px;
+    text-align: center;
+    border-style: solid;
+    border-color: #3f1b5b ;
+    border-radius:40px;
+    background-color: #f8f3fa;
+    color: #3f1b5b;
+    min-height: 55px;
+    min-width: 135px;
+    border-width: 1px;
+    cursor:pointer;
+}
+
+#no {
+    margin-left: 30px;
+    text-align: center;
+    border-style: solid;
+    border-color: #3f1b5b ;
+    border-radius:40px;
+    background-color: #f8f3fa;
+    color: #3f1b5b;
+    min-height: 55px;
+    min-width: 135px;
+    border-width: 1px;
+    cursor:pointer;
+}
+
+.button_div {
+    text-align: center;
+}
+
+#yes:hover {
+    background-color: #3f1b5b;
+    color: #f8f3fa;
+}
+
+#no:hover {
+    background-color: #3f1b5b;
+    color: #f8f3fa;
+}
