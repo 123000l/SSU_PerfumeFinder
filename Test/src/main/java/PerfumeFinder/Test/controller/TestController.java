@@ -118,4 +118,7 @@ public class TestController {
 
     @GetMapping("header")
     public String h() { return "TestHeader"; }
+
+    @GetMapping("testMiddle")
+    public String M() { return "TestMiddle"; }
 }
