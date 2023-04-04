@@ -1,0 +1,49 @@
+.pos {
+    z-index: 2;
+    position: relative;
+    padding-top: 320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pos2 {
+    padding-top: 17px;
+}
+
+.pos3 {
+    padding-top: 45px;
+}
+
+.test {
+    padding-top:180px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1550px;
+    height: 700px;
+    z-index: 1;
+}
+
+.btn {
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    border-radius:40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #401B5B;
+    border: none;
+}
+
+#last {
+    width: 300px;
+    height: 40px;
+    background-color: #401B5B;
+    border-radius: 40px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    box-shadow: 0px 3px 5px #575757;
+    cursor:pointer;
+}
+

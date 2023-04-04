@@ -11,10 +11,10 @@
     margin-top: 80px;
     text-align: center;
     border-style: solid;
-    border-color: #3f1b5b ;
+    border-color: #401B5B;
     border-radius:40px;
     background-color: #f8f3fa;
-    color: #3f1b5b;
+    color: #401B5B;
     min-height: 55px;
     min-width: 135px;
     border-width: 1px;
@@ -28,7 +28,7 @@
     border-color: #3f1b5b ;
     border-radius:40px;
     background-color: #f8f3fa;
-    color: #3f1b5b;
+    color: #401B5B;
     min-height: 55px;
     min-width: 135px;
     border-width: 1px;
@@ -40,11 +40,11 @@
 }
 
 #yes:hover {
-    background-color: #3f1b5b;
+    background-color: #401B5B;
     color: #f8f3fa;
 }
 
 #no:hover {
-    background-color: #3f1b5b;
+    background-color: #401B5B;
     color: #f8f3fa;
 }

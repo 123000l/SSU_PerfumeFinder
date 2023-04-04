@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&family=Permanent+Marker&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif KR', serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 8px 12px;
+    height: 137px;
+    width: 1258px;
+}
+.navbar__logo{
+font-size: 24px;
+padding: 10px 50px;
+
+
+}
+.navbar__menu{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+
+}
+.navbar__search{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+
+}
+.navbar__login{
+    font-family: 'Noto Serif KR', serif;
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+.navbar__login li:hover {
+    border:solid #401b5b;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.navbar__menu li:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.navbar__menu li{
+    padding: 8px 12px;
+}
+.navbar__login{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+.navbar__login li{
+    padding: 8px 12px;
+}
+
+.navbar__search{
+    padding: 8px 12px;
+    border:solid;
+
+}
+.input{
+    font-size: 16px;
+    width:325px;
+    padding: 10px;
+    border: 0px;
+    outline:none;
+    float: left;
+}
+.button {
+    border-radius: 5px;
+    width: 50px;
+    height: 100%;
+    background: #401b5b;
+    outline:none;
+    float: right;
+    color: #401b5b;
+}
+
+.box{
+    width: 280px;
+    height: 400px;
+    float: left;
+    margin: 100px 17px;
+    background-color: #dfcbed;
+    border-radius: 15px;
+}
+.box-wrapper{
+   width: 1215px;
+}
+#page{
+     width: 1400px;
+     margin:0 auto;
+}
+
+#boxPosition {
+    margin:0 auto;
+}
+
+.findBox{
+    width: 100%
+    height: 100px;
+    background-color: purple;
+}
+
