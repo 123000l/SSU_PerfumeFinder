@@ -22,6 +22,14 @@
     text-align: center;
 }
 
+.perfume_special1 {
+    z-index: 2;
+        margin-top: 50px;
+        width: 200px;
+        height: 200px;
+        margin-left: -140px;
+}
+
 .perfume {
     z-index: 2;
     margin-top: 50px;
@@ -38,6 +46,64 @@
     padding-left: 30px;
 }
 
+.perfume_special2 {
+    z-index: 2;
+        margin-top: 50px;
+        width: 110px;
+        height: 200px;
+        padding-left: 75px;
+}
+
+.name_pos {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.name_pos2 {
+    text-align: center;
+    margin-top: 250px;
+}
+
+#name1 {
+    padding-right: 140px;
+}
+
+#name2 {
+    padding-right: 140px;
+}
+
+#name4 {
+    padding-right: 80px;
+}
+
+#name5 {
+    padding-right: 80px;
+}
+
+#name11 {
+    margin-left: -110px;
+    padding-right: 110px;
+}
+
+#name22 {
+    margin-left: -50px;
+    padding-right: 80px;
+
+}
+
+#name111 {
+    padding-right: 100px;
+}
+
+#name222 {
+    padding-left: 0px;
+    padding-right: 150px;
+    margin-left: 40px;
+
+}
+
+
+
 #num1 {
     padding-right: 250px;
 }
@@ -51,7 +117,12 @@
 }
 
 #num6 {
-    padding-right: 250px;
+    padding-right: 200px;
+    margin-left: 50px;
+}
+
+#num7 {
+    padding-left: 100px;
 }
 
 #num8 {

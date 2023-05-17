@@ -1,117 +1,185 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&family=Permanent+Marker&display=swap');
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Noto Serif KR', serif;
+@font-face {
+    font-family: 'Batang_Medium';
+    src: url("C:/Users/jyuji/Desktop/SSU_PerfumeFinder/mainpage/KoPubWorld Batang Medium.ttf") format("truetype");
+
+  }
+  @font-face {
+    font-family: 'Batang_bold';
+    src: url("C:/Users/jyuji/Desktop/SSU_PerfumeFinder/mainpage/KoPubWorld Batang Bold.ttf") format("truetype");
+
+  }
+
+header {
+    height: 100px;
 }
-a{
-    text-decoration: none;
+
+.head {
+    text-align: center;
+    padding-top: 60px;
+    margin-left: 110px;
+}
+
+
+a {
     color: black;
+    font-size: 18px;
+    font-family: 'Batang_Medium', serif;
+    text-decoration:none;
+    margin-left: 70px;
 }
-.navbar{
-    display: flex;
 
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    padding: 8px 12px;
-    height: 137px;
-    width: 1258px;
+#search {
+    margin-left: 50px;
 }
-.navbar__logo{
-font-size: 24px;
-padding: 10px 50px;
 
-
+input {
+    margin-top: -20px;
+    height: 33px;
+    width: 180px;
+    border-radius: 70px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #401B5B;
 }
-.navbar__menu{
-    display: flex;
-    list-style-type: none;
-    padding-left: 0;
 
-}
-.navbar__search{
-    display: flex;
-    list-style-type: none;
-    padding-left: 0;
-
-}
-.navbar__login{
-    font-family: 'Noto Serif KR', serif;
-    display: flex;
-    list-style-type: none;
-    padding-left: 0;
+button {
+    margin-left: 2px;
 
 }
 
-.navbar__login li:hover {
-    border:solid #401b5b;
-    background-color: white;
-    border-radius: 5px;
-
-}
-.navbar__menu li:hover{
-    background-color: whitesmoke;
-    border-radius: 10px;
-}
-.navbar__menu li{
-    padding: 8px 12px;
-}
-.navbar__login{
-    display: flex;
-    list-style-type: none;
-    padding-left: 0;
-}
-.navbar__login li{
-    padding: 8px 12px;
+.log {
+    margin-left: 50px;
 }
 
-.navbar__search{
-    padding: 8px 12px;
-    border:solid;
-
+#login {
+    width: 60px;
+    height: 30px;
+    background-color: #401B5B;
+    color: white;
+    border-width: 1px;
+    border-color: #401B5B;
+    border-style: solid;
+    border-radius: 2px;
+    cursor:pointer;
 }
-.input{
-    font-size: 16px;
-    width:325px;
-    padding: 10px;
-    border: 0px;
-    outline:none;
+
+#signup {
+    width: 80px;
+    height: 30px;
+    background-color: #f8f3fa;
+    border-color: #401B5B;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    cursor:pointer;
+}
+
+img {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -130px;
+    width: 115px;
+    height: 50px;
+}
+
+a {
+    cursor: pointer;
+}
+
+#find-img{
+ margin-top: -45px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 70px;
+          width: 160px;
+          height: 100px;
+}
+.logobox{
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /*수직 가운데 정렬*/
+}
+.imgbox{
+    width: 300px;
+    height: 500px;
     float: left;
-}
-.button {
-    border-radius: 5px;
-    width: 50px;
-    height: 100%;
-    background: #401b5b;
-    outline:none;
-    float: right;
-    color: #401b5b;
-}
 
-.box{
-    width: 280px;
-    height: 400px;
-    float: left;
-    margin: 100px 17px;
-    background-color: #dfcbed;
+
+    margin: 30px 20px;
+    background-color: #f8f3fa;
     border-radius: 15px;
+}
+.findbox{
+    width: 100%;
+    height: 200px;
+    font-family: 'Batang_bold';
+
+    background-color: #401b5b;
+    color: white;
+  text-align: center;
+align-items: center;
+justify-content: center;
+display: flex;
+border: 0px;
+margin-left: -20px;
+margin-top: 30px;
+padding-right: 30px;
+font-size: 30px;
+top: 0;
+left: 0;
+}
+
+.findfont {
+    font-family: 'Batang_Medium', serif;
 }
 .box-wrapper{
    width: 1215px;
 }
 #page{
      width: 1400px;
-     margin:0 auto;
+     margin:0 auto;}
+
+.pos{
+    text-align: center;
 }
 
-#boxPosition {
-    margin:0 auto;
+span img{
+    display: block;
+    margin: auto;
 }
+#perfume-img{
+padding-top: 80px;
+  padding-left: 60px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+        width: 180px;
+        height: 200px;
 
-.findBox{
-    width: 100%
-    height: 100px;
-    background-color: purple;
 }
+.purplebox{
 
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /*수직 가운데 정렬*/
+      padding-top: 30px;
+}
+#attribute{
+    background-color: #401B5B;
+    color: white;
+    border-width: 7px;
+    border-color: #401B5B;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+
+}
+.buttonbox{
+    padding: 5px;
+}
+.test{
+    padding-top: 330px;
+  padding-left: 60px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+}

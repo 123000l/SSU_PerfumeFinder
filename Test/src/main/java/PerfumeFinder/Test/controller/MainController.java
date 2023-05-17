@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MainController {
 
     @GetMapping("test")
-    public String header() { return "pageHeader"; }
+    public String header() {return "pageHeader"; }
 
     @GetMapping("case1")
     public String case1() {return "KeyWord/keyword1";}
@@ -22,5 +22,4 @@ public class MainController {
 
     @GetMapping("case4")
     public String case4() {return "KeyWord/keyword4";}
-
 }

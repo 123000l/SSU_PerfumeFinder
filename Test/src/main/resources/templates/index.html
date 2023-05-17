@@ -2,55 +2,99 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Open+Sans:ital,wght@0,400;0,500;1,400&family=Permanent+Marker&display=swap" rel="stylesheet">
-
+    <title>Title</title>
     <link rel="stylesheet" href="/css/Main.css">
-
-    <title>Document</title>
-    <script src="https://kit.fontawesome.com/2574911c58.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Open+Sans:ital,wght@0,400;0,500;1,400&family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <body>
-<div id="page">
-    <nav class="navbar">
-        <div class="navbar__logo">
-            <a href="">PerfumeFinder</a>
+<header>
+    <div class="head">
+        <a href="/"><img src="images/title.png"></a>
+        <span class="menu"><a href="">About</a></span>
+        <span class="menu"><a href="/Test/start">Perfume Test</a></span>
+        <span class="menu"><a href="/recommend/input">Image Recommend</a></span>
+        <span id="search"><input type="text"></span>
+        <span class="log">
+                <button id="login">로그인</button>
+                <button id="signup">회원가입</button>
+            </span>
+    </div>
+</header>
+
+
+<!—    <hr>
+
+
+<article id="content">
+    <section id="main">
+
+        <div class="findbox">
+            <div class="wordbox">
+                <img src="/images/findcut.png" id="find-img">
+            </div>
         </div>
+    </section>
+    <div class="purplebox">
+        <span class="imgbox"><a href="keyword/case1"><img src="/images/perfume1/18.png" id="perfume-img"></a>
+            <div class="test">
+            <div class="buttonbox">
+                <button id="attribute">#깨끗한</button>
+                <button id="attribute">#청량한</button>
+                </div>
+                <div class="buttonbox">
+                <button id="attribute">#정돈된</button>
+                <button id="attribute">#상쾌한</button>
+                </div>
+                <div class="buttonbox">
+                <button id="attribute">#순수한</button>
+            </div>
+        </div>
+        </span>
+        <span class="imgbox"><a href="keyword/case2"><img src="/images/perfume2/2.png" id="perfume-img"></a>
+            <div class="test">
+                <div class="buttonbox">
+                    <button id="attribute">#사랑스러운</button>
+                    <button id="attribute">#밝은</button>
+                    </div>
+                    <div class="buttonbox">
+                    <button id="attribute">#따뜻한</button>
+                    <button id="attribute">#귀여운</button>
+                    </div>
 
-        <ul class="navbar__menu">
-            <li><a href="">About</a></li>
-        </ul>
-        <ul class="navbar__menu">
-            <li><a href="">Perfume Test</a></li>
+            </div>
+        </span>
+        <span class="imgbox"><a href="keyword/case3"><img src="/images/perfume3/20.png" id="perfume-img"></a>
+            <div class="test">
+                <div class="buttonbox">
+                    <button id="attribute">#화려한</button>
+                    <button id="attribute">#강한</button>
+                    </div>
+                    <div class="buttonbox">
+                    <button id="attribute"> #쨍한</button>
+                    <button id="attribute"> #세련된</button>
+                    </div>
 
-        </ul>
+            </div>
+        </span>
 
-        <ul class="navbar__search">
-            <input type="text" placeholder="Search">
-            <button class="button">검색</button>
+        <span class="imgbox"><a href="keyword/case4"><img src="/images/perfume4/1.png" id="perfume-img"></a>
+            <div class="test">
+                <div class="buttonbox">
+                    <button id="attribute">#무거운</button>
+                    <button id="attribute">#시니컬한</button>
+                    </div>
+                    <div class="buttonbox">
+                    <button id="attribute">#중성적인</button>
+                    <button id="attribute">#차가운</button>
+                    </div>
 
-        </ul>
+            </div>
+        </span>
 
-        <ul class="navbar__login">
+    </div>
 
-            <li><a href="">로그인</a></li>
-            <li><a href="">회원가입</a></li>
-        </ul>
 
-    </nav>
-    <article id="content">
-        <section id="main">
-            <div class="findBox"></div>
-        </section>
-        <section id="boxPosition">
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-        </section>
-    </article>
+</article>
 </div>
 
 </body>
