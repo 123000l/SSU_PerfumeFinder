@@ -1,0 +1,83 @@
+.background {
+    z-index: 1;
+    width: 100%;
+    height: 550px;
+    margin-top: 50px;
+    background-color: #f8f3fa;
+    position: absolute;
+    left: 0;
+}
+
+h2 {
+   margin-top: 30px;
+   text-align: center;
+}
+
+p {
+   margin-top: -15px;
+   text-align: center;
+}
+
+.p {
+    z-index: 2;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.white_box {
+    background-color: white;
+    width: 220px;
+    height: 50px;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 40px;
+    cursor:pointer;
+}
+
+.circle {
+    width: 27px;
+    height: 27px;
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+    margin-left: 5px;
+    cursor:pointer;
+}
+
+.p1 {
+    margin-left: 63px;
+}
+
+.pos {
+    z-index: 3;
+    margin-top: -346px;
+    text-align: center;
+    margin-right: 43px;
+    cursor:pointer;
+}
+
+.pos2 {
+    z-index: 3;
+    margin-top: 73px;
+    text-align: center;
+    margin-right: 43px;
+    cursor:pointer;
+}
+
+.pos3 {
+    z-index: 3;
+    margin-top: 73px;
+    text-align: center;
+    margin-right: 43px;
+    cursor:pointer;
+}
+
+.pos4 {
+    z-index: 3;
+    margin-top: 73px;
+    text-align: center;
+    margin-right: 43px;
+    cursor:pointer;
+}

@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&family=Permanent+Marker&display=swap');
+@font-face {
+    font-family: 'Batang_Medium';
+    src: url("C:/Users/jyuji/Desktop/SSU_PerfumeFinder/mainpage/KoPubWorld Batang Medium.ttf") format("truetype");
+
+  }
+  @font-face {
+    font-family: 'Batang_bold';
+    src: url("C:/Users/jyuji/Desktop/SSU_PerfumeFinder/mainpage/KoPubWorld Batang Bold.ttf") format("truetype");
+
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&family=Permanent+Marker&display=swap');
+
+header {
+    height: 100px;
+}
+
+.head {
+    text-align: center;
+    padding-top: 60px;
+    margin-left: 110px;
+}
+
+.menu {
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.menu2 {
+    font-size: 15px;
+
+}
+
+.color2 {
+    color: #401B5B;
+}
+
+a {
+    color: black;
+    text-decoration:none;
+    font-family: 'Noto Serif KR', serif;
+}
+
+#search {
+    margin-left: 50px;
+}
+
+input {
+    margin-top: -20px;
+    height: 33px;
+    width: 180px;
+    border-radius: 70px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #401B5B;
+}
+
+button {
+    margin-left: 2px;
+
+}
+
+.log {
+    margin-left: 50px;
+}
+
+#login {
+    width: 60px;
+    height: 30px;
+    background-color: #401B5B;
+    color: white;
+    border-width: 1px;
+    border-color: #401B5B;
+    border-style: solid;
+    border-radius: 2px;
+    cursor:pointer;
+}
+
+#signup {
+    width: 80px;
+    height: 30px;
+    background-color: #f8f3fa;
+    border-color: #401B5B;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    cursor:pointer;
+}
+
+img {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -130px;
+    width: 115px;
+    height: 50px;
+}
+.mm{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -400px;
+    width: 190px;
+    height: 60px;
+}
+.nn{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -120px;
+    width: 185px;
+    height: 60px;
+}
+.bb{
+    position: absolute;
+    margin-top: -20px;
+    margin-left:150px;
+    /* margin-left: -5px; */
+    width: 185px;
+    height: 60px;
+}
+a {
+    cursor: pointer;
+}
+.purple{
+    width: 100%;
+    height: 200px;
+
+
+    background-color: #401b5b;
+
+  text-align: center;
+align-items: center;
+justify-content: center;
+display: flex;
+border: 0px;
+margin-left: -20px;
+margin-top: 30px;
+padding-right: 30px;
+font-size: 30px;
+top: 0;
+left: 0;
+}
+#irun-img{
+    margin-top: 13px;
+       padding-left: 720px;
+       padding-right: 80px;
+       padding-bottom: 70px;
+             width: 170px;
+             height: 40px;
+   }
+#who-img{
+    margin-top: 200px;
+       padding-left: 685px;
+       padding-right: 80px;
+       padding-bottom: 70px;
+             width: 400px;
+             height: 60px;
+}
+.name{
+    width: 100%;
+    height: 200px;
+    font-size: 18px;
+    font-family: 'Batang_Medium', serif;
+
+    background-color:white;
+
+  text-align: center;
+align-items: center;
+justify-content: center;
+display: flex;
+border: 0px;
+margin-left: 20px;
+margin-top: 80px;
+padding-right: 30px;
+font-size: 20px;
+top: 0;
+left: 0;
+/* letter-spacing: 10px; */
+}
+.nname{
+    margin-right:55px;
+}
+#devel-img{
+    margin-top: 120px;
+    padding-left: 800px;
+    padding-right: 80px;
+    padding-bottom: 70px;
+          width: 140px;
+          height: 30px;
+}

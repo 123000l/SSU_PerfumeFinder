@@ -4,6 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+
 @Controller
 @RequestMapping("recommend")
 public class RecommendController {
@@ -12,4 +13,13 @@ public class RecommendController {
 
     @GetMapping("input")
     public String individual1() {return "recommend/input";}
+
+//    private final FileService fileService;
+
+
+    @GetMapping("/upload")
+    public String testUploadForm() {
+
+        return "test/uploadTest";
+    }
 }

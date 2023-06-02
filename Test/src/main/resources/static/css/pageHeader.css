@@ -11,15 +11,23 @@ header {
 }
 
 .menu {
+    font-size: 20px;
+    margin-left: 70px;
+}
 
+.menu2 {
+    font-size: 15px;
+
+}
+
+.color2 {
+    color: #401B5B;
 }
 
 a {
     color: black;
-    font-size: 18px;
-    font-family: 'Noto Serif KR', serif;
     text-decoration:none;
-    margin-left: 70px;
+    font-family: 'Noto Serif KR', serif;
 }
 
 #search {
