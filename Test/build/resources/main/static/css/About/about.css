@@ -99,21 +99,21 @@ img {
 .mm{
     position: absolute;
     margin-top: -20px;
-    margin-left: -400px;
+    margin-left: -340px;
     width: 190px;
     height: 60px;
 }
 .nn{
     position: absolute;
     margin-top: -20px;
-    margin-left: -120px;
+    margin-left: -60px;
     width: 185px;
     height: 60px;
 }
 .bb{
     position: absolute;
     margin-top: -20px;
-    margin-left:150px;
+    margin-left:210px;
     /* margin-left: -5px; */
     width: 185px;
     height: 60px;
@@ -134,15 +134,15 @@ justify-content: center;
 display: flex;
 border: 0px;
 margin-left: -20px;
-margin-top: 30px;
+margin-top: 100px;
 padding-right: 30px;
 font-size: 30px;
 top: 0;
 left: 0;
 }
 #irun-img{
-    margin-top: 13px;
-       padding-left: 720px;
+    margin-top: 33px;
+       padding-left: 805px;
        padding-right: 80px;
        padding-bottom: 70px;
              width: 170px;
@@ -169,9 +169,9 @@ align-items: center;
 justify-content: center;
 display: flex;
 border: 0px;
-margin-left: 20px;
+margin-left: 35px;
 margin-top: 80px;
-padding-right: 30px;
+padding-right: 23px;
 font-size: 20px;
 top: 0;
 left: 0;
@@ -182,7 +182,7 @@ left: 0;
 }
 #devel-img{
     margin-top: 120px;
-    padding-left: 800px;
+    padding-left: 820px;
     padding-right: 80px;
     padding-bottom: 70px;
           width: 140px;
